@@ -1,4 +1,6 @@
-Goal
+# OverTheWire Bandit – Level 5 → Level 6
+
+**Goal**
 The password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties:
 
 - Human-readable
@@ -6,14 +8,14 @@ The password for the next level is stored in a file somewhere under the inhere d
 - Not executable
 
 
-Connection
+**Connection**
 
 ssh bandit5@bandit.labs.overthewire.org -p 2220
 # Password: [HWasnPhtq9AVKe0dmk45nxy20cvUa6EG Level 5]
 
 
 
-Solution
+**Solution**
 
 bandit5@bandit:~$ ls
 inhere
